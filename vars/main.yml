@@ -1,0 +1,4 @@
+---
+hangout_arch: "{% if ansible_architecture == 'x86_64' %}amd64{% else %}i386{% endif %}"
+hangout_url_deb: "https://dl.google.com/linux/direct/google-talkplugin_current_{{hangout_arch}}.deb"
+
